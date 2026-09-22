@@ -404,7 +404,7 @@ fyndra-gui &            # Background
 
 ## 🏗️ Tech Stack
 
-> `Edition 2021` · 
+> `Edition 2021` · Verified from `Cargo.toml`
 
 <p>
   <img src="https://img.shields.io/badge/Language-Rust%202021-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Language Rust 2021"/>
