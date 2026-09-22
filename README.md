@@ -11,7 +11,7 @@
 </p>
 
 <p>
-  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-1.70%2B-orange?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/></a>
+<a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-1.92%2B-orange?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/></a>
   <a href="https://gtk-rs.org/"><img src="https://img.shields.io/badge/Libadwaita-0.9-3584E4?style=for-the-badge&logo=gnome&logoColor=white" alt="Libadwaita 0.9"/></a>
   <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/Platform-Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/></a>
   <a href="https://gtk.org/"><img src="https://img.shields.io/badge/GTK4-4.10%2B-4A90D9?style=for-the-badge&logo=gtk&logoColor=white" alt="GTK4"/></a>
