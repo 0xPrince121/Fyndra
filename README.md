@@ -257,6 +257,7 @@ Fyndra/
 
 ---
 
+<a id="requirements"></a>
 ## 🛠️ Requirements
 
 > Install first — *without these, build will fail*
@@ -295,6 +296,7 @@ rustc --version && pkg-config --modversion gtk4 && pkg-config --modversion libad
 
 ---
 
+<a id="installation"></a>
 ## 📦 Installation
 
 ### Quick Install (Linux)
@@ -326,6 +328,7 @@ update-desktop-database ~/.local/share/applications 2>/dev/null || true
 
 ---
 
+<a id="build-from-source"></a>
 ## 🔨 Build From Source
 
 ```bash
@@ -349,6 +352,7 @@ cargo run -p fyndra-gui
 
 ---
 
+<a id="usage"></a>
 ## 💻 Usage
 
 ### CLI - `fyndra-cli`
