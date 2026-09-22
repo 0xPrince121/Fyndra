@@ -1,0 +1,19 @@
+[package]
+name = "fyndra-gui"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xPrince <https://github.com/0xPrince121>"]
+license = "MIT"
+description = "Modern GTK4 / Libadwaita desktop file search engine for Linux"
+repository = "https://github.com/0xPrince121/Fyndra"
+
+[dependencies]
+fyndra-core = { path = "../fyndra-core" }
+gtk4 = "0.11"
+libadwaita = "0.9"
+glib = "0.22"
+gio = "0.22"
+human_bytes = "0.4"
+chrono = "0.4"
+open = "5.3"
+async-channel = "2.3"

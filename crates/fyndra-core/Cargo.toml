@@ -1,0 +1,33 @@
+[package]
+name = "fyndra-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xPrince <https://github.com/0xPrince121>"]
+license = "MIT"
+description = "Core in-memory search engine and crawler for Fyndra"
+repository = "https://github.com/0xPrince121/Fyndra"
+
+[dependencies]
+rayon = "1.10"
+walkdir = "2.5"
+regex = "1.11"
+glob = "0.3"
+notify = "8.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+crossbeam-channel = "0.5"
+libc = "0.2"
+chrono = "0.4"
+parking_lot = "0.12"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+tempfile = "3.10"
+
+[[bench]]
+name = "search"
+harness = false
+
+[[bench]]
+name = "crawl"
+harness = false

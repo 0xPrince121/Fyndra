@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "crates/fyndra-core",
+    "crates/fyndra-cli",
+    "crates/fyndra-gui",
+]
+resolver = "2"
