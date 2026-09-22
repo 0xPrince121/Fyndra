@@ -260,11 +260,13 @@ Fyndra/
 <a id="requirements"></a>
 ## 🛠️ Requirements
 
-> Install first — *without these, build will fail*
+
+>  Install these dependencies for a full Fyndra build (CLI + GUI).
+> For CLI-only builds, GTK4 and Libadwaita are not required.
 
 | Dependency | Version | Install |
 |------------|---------|---------|
-| Rust | 1.70+ | `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \| sh` |
+| Rust | 1.92+ | `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \| sh` |
 | GTK4 | 4.10+ | `brew install gtk4` (macOS) / `sudo apt install libgtk-4-dev` (Linux) |
 | Libadwaita | 1.3+ | `brew install libadwaita` / `sudo apt install libadwaita-1-dev` |
 | pkg-config | any | `brew install pkg-config` / `sudo apt install pkg-config` |
@@ -409,7 +411,7 @@ fyndra-gui &            # Background
 <p>
   <img src="https://img.shields.io/badge/Language-Rust%202021-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Language Rust 2021"/>
   <img src="https://img.shields.io/badge/UI-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="UI GTK4 / Libadwaita"/>
-  <img src="https://img.shields.io/badge/Rust-1.70%2B-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+  <img src="https://img.shields.io/badge/Rust-1.92%2B-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/GTK4-0.11-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4"/>
   <img src="https://img.shields.io/badge/Libadwaita-0.9-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="Libadwaita"/>
   <img src="https://img.shields.io/badge/Rayon-1.10-FF6B6B?style=flat-square" alt="Rayon"/>
